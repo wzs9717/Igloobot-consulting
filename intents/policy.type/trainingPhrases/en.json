@@ -1,0 +1,39 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "wanna a "
+    }, {
+      "text": "health",
+      "parameterId": "policy-type"
+    }, {
+      "text": " insurance"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "pa",
+      "parameterId": "policy-type"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "motor",
+      "parameterId": "policy-type"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want a "
+    }, {
+      "text": "auto",
+      "parameterId": "policy-type"
+    }, {
+      "text": " policy\n"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "9f7f5973-0be2-4606-9207-a6282a1e71ce",
+  "displayName": "find_closest_address",
+  "form": {
+    "parameters": [ {
+      "displayName": "target_address_type",
+      "required": true,
+      "entityType": "@target-address-type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Apakah saat ini kamu sedang mencari klinik dokter hewan atau petshop terdekat?" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Klinik dokter hewan"
+                }, {
+                  "text": "Petshop"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "id"
+          }, {
+            "text": {
+              "text": [ "Are you looking for the nearest vet clinic or pet shop?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Vet clinic"
+                }, {
+                  "text": "Pet shop"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "current_address",
+      "required": true,
+      "entityType": "@sys.address",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Di mana alamat kamu saat ini? (Contoh: Kemang)" ]
+            },
+            "languageCode": "id"
+          }, {
+            "text": {
+              "text": [ "What is your current address" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "find_closest_address2",
+    "name": "c1e1dc00-44b6-48c0-b31d-f7a5dc0cb474"
+  } ]
+}

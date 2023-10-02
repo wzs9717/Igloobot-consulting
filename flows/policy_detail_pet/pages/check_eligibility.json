@@ -1,0 +1,85 @@
+{
+  "name": "741bc554-72ca-444a-8d4e-92a4ddcdf773",
+  "displayName": "check_eligibility",
+  "form": {
+    "parameters": [ {
+      "displayName": "pet_type",
+      "required": true,
+      "entityType": "@pet_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "breed",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Apa jenis hewan peliharaanmu?" ]
+            },
+            "languageCode": "id"
+          }, {
+            "text": {
+              "text": [ "what is your pet breed?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Ok mari kita periksa apakah hewan peliharaan Anda memenuhi syarat!" ]
+      },
+      "languageCode": "id"
+    }, {
+      "text": {
+        "text": [ "Apakah hewan peliharaan Anda anjing atau kucing (kami hanya mencakup anjing dan kucing)?" ]
+      },
+      "languageCode": "id"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Anjing"
+          }, {
+            "text": "Kucing"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "id"
+    }, {
+      "text": {
+        "text": [ "is your pet a dog or a cat(we only cover dog and cat)?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "dog"
+          }, {
+            "text": "cat"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "check_eligibility2",
+    "name": "5fcd0c87-0058-48d1-ae3c-d482b54f3926"
+  } ]
+}

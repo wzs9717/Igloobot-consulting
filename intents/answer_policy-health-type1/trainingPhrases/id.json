@@ -1,0 +1,74 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "keluarga",
+      "parameterId": "policy-health-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya ingin ",
+      "auto": true
+    }, {
+      "text": "satu",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "keluarga",
+      "parameterId": "policy-health-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "individu",
+      "parameterId": "policy-health-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya ingi ",
+      "auto": true
+    }, {
+      "text": "individu",
+      "parameterId": "policy-health-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya ingin ",
+      "auto": true
+    }, {
+      "text": "satu",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "individu",
+      "parameterId": "policy-health-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya ingin asuransi "
+    }, {
+      "text": "individu",
+      "parameterId": "policy-health-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

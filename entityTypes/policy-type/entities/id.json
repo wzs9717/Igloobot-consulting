@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "mobil",
+    "synonyms": [ "car", "mobil" ],
+    "languageCode": "id"
+  }, {
+    "value": "kecelakaan pribadi",
+    "synonyms": [ "kecelakaan pribadi", "pa" ],
+    "languageCode": "id"
+  }, {
+    "value": "peliharaan",
+    "synonyms": [ "pet" ],
+    "languageCode": "id"
+  }, {
+    "value": "kesehatan",
+    "synonyms": [ "health", "kesehatan" ],
+    "languageCode": "id"
+  }, {
+    "value": "sepeda motor",
+    "synonyms": [ "motorbike", "sepeda motor" ],
+    "languageCode": "id"
+  } ]
+}

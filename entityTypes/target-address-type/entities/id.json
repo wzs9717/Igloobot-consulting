@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "hotel",
+    "synonyms": [ "hotel" ],
+    "languageCode": "id"
+  }, {
+    "value": "pet shop",
+    "synonyms": [ "peliharaan", "Petshop", "Toko hewan", "toko hewan peliharaan" ],
+    "languageCode": "id"
+  }, {
+    "value": "training",
+    "synonyms": [ "pelatihan", "train" ],
+    "languageCode": "id"
+  }, {
+    "value": "vet",
+    "synonyms": [ "dokter hewan", "Kembali ke awal", "Klinik dokter hewan " ],
+    "languageCode": "id"
+  } ]
+}

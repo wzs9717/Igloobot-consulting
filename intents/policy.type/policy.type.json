@@ -1,0 +1,10 @@
+{
+  "name": "4dc47285-4f24-465d-95a1-443cfa6c11ef",
+  "displayName": "policy.type",
+  "parameters": [ {
+    "id": "policy-type",
+    "entityType": "@policy-type"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "kucing lokal",
+    "synonyms": [ "kucing lokal" ],
+    "languageCode": "id"
+  }, {
+    "value": "anjing lokal",
+    "synonyms": [ "anjing lokal" ],
+    "languageCode": "id"
+  }, {
+    "value": "serak",
+    "synonyms": [ "serak" ],
+    "languageCode": "id"
+  } ]
+}

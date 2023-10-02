@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "individu",
+    "synonyms": [ "individu" ],
+    "languageCode": "id"
+  }, {
+    "value": " keluarga",
+    "synonyms": [ " keluarga" ],
+    "languageCode": "id"
+  } ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "67d4a05b-878f-4590-ac5e-92ab0f1453dd",
+  "displayName": "find_closest_address3",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "go_home",
+    "condition": "true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "target_address_type",
+        "value": null
+      }, {
+        "parameter": "current_address",
+        "value": null
+      } ]
+    },
+    "targetPage": "feedback1",
+    "name": "32efc245-9319-4506-ac65-2515b1ddd5ad"
+  }, {
+    "intent": "go_page_find_closest",
+    "condition": "true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "current_address",
+        "value": null
+      }, {
+        "parameter": "target_address_type",
+        "value": null
+      } ]
+    },
+    "targetPage": "find_closest_address",
+    "name": "cecb7c0d-8a18-494d-950e-ba5ba9c961f6"
+  }, {
+    "intent": "end_conversation",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Can I help you with anything else?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Find another pet store or vet clinic"
+            }, {
+              "text": "Home"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Bisakah saya membantu Anda dengan hal lain?" ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Temukan toko hewan peliharaan atau klinik dokter hewan lain."
+            }, {
+              "text": "Rumah"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "name": "5ec8dc7c-8fdc-43cd-a21a-3f0298054673"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "chatbot-GPT-test",
+      "tag": "free chat"
+    },
+    "name": "21572f3f-60a3-47e0-9728-1f3d4ce81525"
+  } ]
+}

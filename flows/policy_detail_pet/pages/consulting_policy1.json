@@ -1,0 +1,110 @@
+{
+  "name": "e20d1086-2a58-4306-b2d3-fe84d6a89188",
+  "displayName": "consulting_policy1",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Jenis hewan apa yang bisa diasuransikan?"
+          }, {
+            "text": "Berapa harga premiumnya?"
+          }, {
+            "text": "Bisakah kucing tanpa sertifikat diasuransikan?"
+          }, {
+            "text": "Apa itu asuransi hewan peliharaan?"
+          }, {
+            "text": "Bagaimana cara mengklaim jika anjing saya sakit?"
+          }, {
+            "text": "Bagaimana cara membeli asuransi hewan peliharaan?"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "id"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "What type of animals can be insured?"
+          }, {
+            "text": "What is the premium price?"
+          }, {
+            "text": "Can a cat without a certificate be insured?"
+          }, {
+            "text": "What is pet insurance?"
+          }, {
+            "text": "How to claim if my dog is sick?"
+          }, {
+            "text": "How can I purchase pet insurance?"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "end_conversation",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Bisakah saya membantu Anda dengan hal lain?" ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Gergi ke halaman rumah"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "Can i help you with anything else? " ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Go home page"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "07955d5b-b6fe-45c7-8ef0-8b915c6e64ca"
+  }, {
+    "intent": "go_home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "feedback1",
+    "name": "e566f497-3ca2-4af0-86c2-205c852e35ba"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "postconsulting_policy1",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "chatbot-GPT-test",
+      "tag": "ask-GPT-asuransi_sinarmas_pet"
+    },
+    "name": "97a10bfa-7839-41d9-9436-e3821a027927"
+  }, {
+    "targetPage": "feedback1",
+    "event": "restart",
+    "triggerFulfillment": {
+    
+    },
+    "name": "a1457942-e585-4b8a-ba45-49f50f15a75b"
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "apa yang terjadi jika saya kehilangan mobil saya",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya seorang sopir ",
+      "auto": true
+    }, {
+      "text": "taksi",
+      "auto": true
+    }, {
+      "text": " berusia 54 tahun, apakah Anda akan merekomendasikan paket ini untuk saya?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

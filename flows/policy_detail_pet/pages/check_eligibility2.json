@@ -1,0 +1,67 @@
+{
+  "name": "20d09e8b-d48c-4faa-99f6-b10c3d33543f",
+  "displayName": "check_eligibility2",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "chatbot-GPT-test",
+    "tag": "check-eligibility"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Would you like to:" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Go home page"
+            }, {
+              "text": "Check another breed"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Apakah Anda mau:" ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Pergi ke halaman rumah"
+            }, {
+              "text": "Periksa ras lain"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "targetPage": "check_eligibility3",
+    "name": "0968dec5-25db-476c-bc95-0724fbe9f869"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Type 'no' if you want to go to home page." ]
+        },
+        "languageCode": "id"
+      } ],
+      "webhook": "chatbot-GPT-test",
+      "tag": "ask-GPT-asuransi_sinarmas_pet"
+    },
+    "name": "4eed8350-6c20-4d74-9e84-7a4405fdf1f3"
+  } ]
+}

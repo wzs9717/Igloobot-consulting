@@ -1,0 +1,17 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "yes",
+      "parameterId": "bool"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "no",
+      "parameterId": "bool"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

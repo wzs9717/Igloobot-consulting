@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "comprehensive",
+    "synonyms": [ "comprehensive" ],
+    "languageCode": "en"
+  }, {
+    "value": "total loss only",
+    "synonyms": [ "total loss only", "tol" ],
+    "languageCode": "en"
+  } ]
+}

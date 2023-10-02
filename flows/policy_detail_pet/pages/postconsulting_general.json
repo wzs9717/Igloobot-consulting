@@ -1,0 +1,23 @@
+{
+  "name": "129bfb6c-52d0-4cb6-9b8b-8e078e92bc6e",
+  "displayName": "postconsulting_general",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Can i help you with anything else? Type 'no' to go to home page." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "consulting_general",
+    "name": "95b7a2ba-7017-4127-8b0e-8774249c1021"
+  } ]
+}

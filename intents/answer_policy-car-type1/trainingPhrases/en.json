@@ -1,0 +1,20 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "comprehensive",
+      "parameterId": "policy-car-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want "
+    }, {
+      "text": "comprehensive",
+      "parameterId": "policy-car-type1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

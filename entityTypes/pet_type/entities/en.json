@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "dog",
+    "synonyms": [ "dog" ],
+    "languageCode": "en"
+  }, {
+    "value": "cat",
+    "synonyms": [ "cat" ],
+    "languageCode": "en"
+  } ]
+}

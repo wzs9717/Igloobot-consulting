@@ -1,0 +1,105 @@
+{
+  "name": "d45bc715-17a7-474c-876e-a1d284c4cdd8",
+  "displayName": "pet_parematers",
+  "form": {
+    "parameters": [ {
+      "displayName": "pet_type",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "we have insurance for both dogs and cats, which one do you want?\n1. dog.\n2. cat.                          \nYou can type a number like 1 to vote" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "kami punya asuransi untuk anjing dan kucing, yang mana yang kamu mau?\n1. anjing\n2. kucing                             \nAnda dapat mengetik angka seperti 1 untuk memilih" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "pet_age",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "how old is your pet?\n1.0-4yo.\n2. 4-9yo.\n3. 9-14yo.                                     \nYou can type a number like 1 to vote." ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "berapa umur hewan peliharaanmu?\n1. 0-4yo.\n2. 4-9yo.\n3. 9-14yo.                               \nAnda dapat mengetik angka seperti 1 untuk memilih" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "pet_weight",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "How much does your pet weigh?\n1. 1-10kg.\n2. 10-25kg.\n3. 25-50kg.\n4. \u003e50kg.                          \nYou can type a number like 1 to vote" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Berapa berat hewan peliharaan Anda?\n1. 1-10kg.\n2. 10-25kg.\n3. 25-50kg.\n4. \u003e50kg.\nAnda dapat mengetik angka seperti 1 untuk memilih" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "pet_certificate",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Do you have a pet certificate?\n1. yes.\n2. no.                           \nYou can type a number like 1 to vote" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Apakah Anda memiliki sertifikat hewan peliharaan?\n1. ya.\n2. tidak.                  \nAnda dapat mengetik angka seperti 1 untuk memilih" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "we need to collect some information about your pet first." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "kami perlu mengumpulkan beberapa informasi tentang hewan peliharaan Anda terlebih dahulu." ]
+      },
+      "languageCode": "id"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "policy_distributer",
+    "name": "5a31514d-79a2-4746-93c9-fbd1592ea31a"
+  } ],
+  "transitionRouteGroups": [ "restart" ]
+}

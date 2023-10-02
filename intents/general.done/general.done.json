@@ -1,0 +1,10 @@
+{
+  "name": "e4a8e17d-93c2-486b-9a24-609cb04c4115",
+  "displayName": "general.done",
+  "parameters": [ {
+    "id": "bool",
+    "entityType": "@bool"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

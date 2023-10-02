@@ -1,0 +1,43 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "i want "
+    }, {
+      "text": "individual",
+      "parameterId": "policy-health-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want "
+    }, {
+      "text": "family",
+      "parameterId": "policy-health-type1",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "one"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "family",
+      "parameterId": "policy-health-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "individual",
+      "parameterId": "policy-health-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

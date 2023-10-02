@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "car",
+    "synonyms": [ "auto", "car", "motor" ],
+    "languageCode": "en"
+  }, {
+    "value": "pa",
+    "synonyms": [ "pa", "personal accident" ],
+    "languageCode": "en"
+  }, {
+    "value": "health",
+    "synonyms": [ "hospital", "medical" ],
+    "languageCode": "en"
+  }, {
+    "value": "motorbike",
+    "synonyms": [ "autobike", "bike", "Motorbike", "motorcycle" ],
+    "languageCode": "en"
+  }, {
+    "value": "pet",
+    "synonyms": [ "cat", "dog", "pet" ],
+    "languageCode": "en"
+  } ]
+}

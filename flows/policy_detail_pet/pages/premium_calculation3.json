@@ -1,0 +1,77 @@
+{
+  "name": "1f04a2f6-2ce8-4639-a1cf-e34016790feb",
+  "displayName": "premium_calculation3",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "go_home",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "sum_insured",
+        "value": null
+      }, {
+        "parameter": "pet_type",
+        "value": null
+      }, {
+        "parameter": "weight",
+        "value": null
+      }, {
+        "parameter": "age",
+        "value": null
+      }, {
+        "parameter": "certificated",
+        "value": null
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "4f521f3b-2aa6-46e1-8d2b-321599d93f95"
+  }, {
+    "intent": "end_conversation",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Apakah Anda mau:" ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Buka halaman beranda"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "Would you like to:" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Go home page"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3d36c723-78d8-432c-887a-f4f5facdb818"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "chatbot-GPT-test",
+      "tag": "ask-GPT-asuransi_sinarmas_pet"
+    },
+    "name": "7e48d0a2-a8bb-434a-870e-3d666823501e"
+  } ]
+}

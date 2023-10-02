@@ -1,0 +1,19 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Find another pet store or vet clinic"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "find another store/"
+    }, {
+      "text": "vet"
+    }, {
+      "text": " clinic"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

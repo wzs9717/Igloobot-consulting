@@ -1,0 +1,10 @@
+{
+  "name": "361943d9-fddb-4873-9c9f-0dfefe84e752",
+  "displayName": "chatbot-GPT-test",
+  "genericWebService": {
+    "uri": "https://60a5-34-140-250-86.ngrok-free.app "
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

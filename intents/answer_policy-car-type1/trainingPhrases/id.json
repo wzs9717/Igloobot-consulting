@@ -1,0 +1,19 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "saya ingin "
+    }, {
+      "text": "komprehensif",
+      "parameterId": "policy-car-type1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Komprehensif",
+      "parameterId": "policy-car-type1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

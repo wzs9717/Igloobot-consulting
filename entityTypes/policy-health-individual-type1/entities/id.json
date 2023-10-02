@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "rawat inap \u0026 rawat jalan",
+    "synonyms": [ "rawat inap \u0026 rawat jalan", "rawat inap and rawat jalan" ],
+    "languageCode": "id"
+  }, {
+    "value": "rawat inap",
+    "synonyms": [ "rawat inap" ],
+    "languageCode": "id"
+  } ]
+}

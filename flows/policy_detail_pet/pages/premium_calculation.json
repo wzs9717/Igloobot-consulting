@@ -1,0 +1,155 @@
+{
+  "name": "0385b5e5-470b-4194-b9a4-3235916a50a1",
+  "displayName": "premium_calculation",
+  "form": {
+    "parameters": [ {
+      "displayName": "pet_type",
+      "required": true,
+      "entityType": "@pet_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    }, {
+      "displayName": "age",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Berapa umur hewan peliharaan Anda (dalam tahun)?" ]
+            },
+            "languageCode": "id"
+          }, {
+            "text": {
+              "text": [ "How old is your pet(in years)?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "weight",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Berapa berat hewan peliharaan Anda (dalam kg)?" ]
+            },
+            "languageCode": "id"
+          }, {
+            "text": {
+              "text": [ "How heavy is your pet(in kg)?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "sum_insured",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "How much did you pay for you pet(in rp)? pls answer like 6000000." ]
+            },
+            "languageCode": "id"
+          }, {
+            "text": {
+              "text": [ "how much did you pay for you pet(in rp)? pls answer like 6000000." ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "certificated",
+      "required": true,
+      "entityType": "@bool",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Apakah hewan peliharaan memiliki sertifikat? (ya atau tidak)" ]
+            },
+            "languageCode": "id"
+          }, {
+            "text": {
+              "text": [ "Does the pet have certificate? (yes or no)" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Agar saya dapat menghitung premi, saya perlu mengajukan beberapa pertanyaan kepada Anda." ]
+      },
+      "languageCode": "id"
+    }, {
+      "text": {
+        "text": [ "Apakah hewan peliharaan Anda anjing atau kucing (kami hanya mencakup anjing dan kucing)?" ]
+      },
+      "languageCode": "id"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Anjing"
+          }, {
+            "text": "Kucing"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "id"
+    }, {
+      "text": {
+        "text": [ "In order for me to calculate the premium, I need to ask you a few questions." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "is your pet a dog or a cat(we only cover dog and cat)?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "dog"
+          }, {
+            "text": "cat"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "premium_calculation2",
+    "name": "33177a3c-3c2e-409b-8c99-067d30cc9f88"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "premium_calculation2",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "74a5efa0-3895-4b29-a095-9b96da6bdd94"
+  } ]
+}

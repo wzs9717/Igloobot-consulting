@@ -1,0 +1,91 @@
+{
+  "name": "b4bf32cf-e265-48eb-8c6b-5a4b0c5cd192",
+  "displayName": "check_eligibility3",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "end_conversation",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Apakah Anda mau:" ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Pergi ke halaman rumah"
+            }, {
+              "text": "Periksa ras lain"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "Would you like to:" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "event": {
+                "name": "go home page"
+              },
+              "text": "Go home page"
+            }, {
+              "event": {
+                "name": "check another breed"
+              },
+              "text": "Check another breed"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f347ac51-014e-4050-bd09-6ea3d9eaa154"
+  }, {
+    "intent": "go_home",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "pet_type",
+        "value": null
+      }, {
+        "parameter": "breed",
+        "value": null
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "f4ba5354-a99d-43c4-8d53-af305d73d8de"
+  }, {
+    "intent": "go_page_check_eligibility",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "breed",
+        "value": null
+      }, {
+        "parameter": "pet_type",
+        "value": null
+      } ]
+    },
+    "targetPage": "check_eligibility",
+    "name": "45f76c8d-3145-400d-8ed5-c5edd61c54c1"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "chatbot-GPT-test",
+      "tag": "ask-GPT-asuransi_sinarmas_pet"
+    },
+    "name": "4255679d-da44-4bc1-a847-7bfb37c17c1d"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "c00518db-9875-43e3-8bf3-4ac282cc9b82",
+  "displayName": "answer with number",
+  "parameters": [ {
+    "id": "number-integer",
+    "entityType": "@sys.number-integer"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 9
+}

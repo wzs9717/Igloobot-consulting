@@ -1,0 +1,41 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Bantu saya menemukan klinik dokter hewan lain"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "cari toko/klinik ",
+      "auto": true
+    }, {
+      "text": "dokter hewan",
+      "auto": true
+    }, {
+      "text": " lain",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Temukan ",
+      "auto": true
+    }, {
+      "text": "toko hewan peliharaan",
+      "auto": true
+    }, {
+      "text": " atau klinik ",
+      "auto": true
+    }, {
+      "text": "dokter hewan",
+      "auto": true
+    }, {
+      "text": " lain",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

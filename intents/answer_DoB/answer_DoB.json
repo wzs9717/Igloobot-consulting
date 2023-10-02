@@ -1,0 +1,10 @@
+{
+  "name": "3604d65c-b344-4160-b29e-b9ea3fdeb4cd",
+  "displayName": "answer_DoB",
+  "parameters": [ {
+    "id": "date",
+    "entityType": "@sys.date"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

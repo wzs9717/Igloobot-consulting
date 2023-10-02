@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "inpatient",
+    "synonyms": [ "inpatient" ],
+    "languageCode": "en"
+  }, {
+    "value": "inpatient\u0026outpatient",
+    "synonyms": [ "both", "inpatient\u0026outpatient", "inpatient and outpatient" ],
+    "languageCode": "en"
+  } ]
+}

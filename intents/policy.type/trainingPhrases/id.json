@@ -1,0 +1,41 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "saya ingin polis asuransi "
+    }, {
+      "text": "mobil",
+      "parameterId": "policy-type"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Asuransi "
+    }, {
+      "text": "kecelakaan",
+      "parameterId": "policy-type"
+    }, {
+      "text": " pribadi"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "kendaraan",
+      "parameterId": "policy-type"
+    }, {
+      "text": " bermotor"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "ingin asuransi "
+    }, {
+      "text": "kesehatan",
+      "parameterId": "policy-type"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

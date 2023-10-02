@@ -1,0 +1,35 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "saya ingin "
+    }, {
+      "text": "1",
+      "parameterId": "number-integer"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "2",
+      "parameterId": "number-integer"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "2",
+      "parameterId": "number-integer"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "1",
+      "parameterId": "number-integer"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

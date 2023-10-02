@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "kecil",
+    "synonyms": [ "kecil" ],
+    "languageCode": "id"
+  }, {
+    "value": "sedang",
+    "synonyms": [ "sedang" ],
+    "languageCode": "id"
+  }, {
+    "value": "besar",
+    "synonyms": [ "besar" ],
+    "languageCode": "id"
+  } ]
+}

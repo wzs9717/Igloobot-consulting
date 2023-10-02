@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "total loss only",
+    "synonyms": [ "tol", "total loss only" ],
+    "languageCode": "en"
+  }, {
+    "value": "lite",
+    "synonyms": [ "lite", "lite insurance" ],
+    "languageCode": "en"
+  } ]
+}

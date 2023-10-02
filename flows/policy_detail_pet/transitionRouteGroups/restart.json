@@ -1,0 +1,12 @@
+{
+  "name": "0bbff324-792c-4533-95d8-bb0812d799d5",
+  "displayName": "restart",
+  "transitionRoutes": [ {
+    "intent": "general.restart",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "664ed470-5f45-4c22-a21c-abed42ec8571"
+  } ]
+}

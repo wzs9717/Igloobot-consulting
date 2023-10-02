@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "1999.1.2",
+    "synonyms": [ "1999.1.2" ],
+    "languageCode": "id"
+  }, {
+    "value": "2022.2.1",
+    "synonyms": [ "2022.2.1" ],
+    "languageCode": "id"
+  } ]
+}

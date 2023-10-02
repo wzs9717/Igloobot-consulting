@@ -1,0 +1,16 @@
+{
+  "name": "e562f791-2865-4aac-ba78-6247b256dde7",
+  "displayName": "default-all",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  }, {
+    "id": "bool",
+    "entityType": "@bool"
+  }, {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

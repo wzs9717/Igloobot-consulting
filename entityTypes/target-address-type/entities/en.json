@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "hotel",
+    "synonyms": [ "hotel" ],
+    "languageCode": "en"
+  }, {
+    "value": "vet",
+    "synonyms": [ "vet" ],
+    "languageCode": "en"
+  }, {
+    "value": "pet shop",
+    "synonyms": [ "pet shop", "petshop", "shop" ],
+    "languageCode": "en"
+  }, {
+    "value": "training",
+    "synonyms": [ "training", "train" ],
+    "languageCode": "en"
+  } ]
+}

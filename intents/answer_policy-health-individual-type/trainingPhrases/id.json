@@ -1,0 +1,29 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "rawat inap",
+      "parameterId": "policy-health-individual-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "rawat inap dan rawat jalan",
+      "parameterId": "policy-health-individual-type1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya ingin rencana ",
+      "auto": true
+    }, {
+      "text": "rawat inap",
+      "parameterId": "policy-health-individual-type1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

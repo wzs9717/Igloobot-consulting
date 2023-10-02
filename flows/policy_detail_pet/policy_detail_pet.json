@@ -1,0 +1,76 @@
+{
+  "name": "bd4fe5d0-94a4-464d-94aa-0b4aa55ccee6",
+  "displayName": "policy_detail_pet",
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "find_closest_address",
+    "name": "a2926fd2-84e7-4514-8c3e-5ecffe5a07df"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "consulting_policy1",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Saya tidak mengerti. Bisa diulangi?", "Saya tidak dengar Anda bilang apa. Bisa ulangi lagi?", "Maaf, bisa ulangi lagi?", "Maaf, bisa diulangi?", "Bisa ulangi lagi?", "Maaf, saya tidak mengerti.", "Maaf, tadi bilang apa?", "Sekali lagi?", "Bilang apa tadi?", "Bisa diulangi?", "Saya tidak mengerti.", "Saya tidak dengar." ]
+        },
+        "languageCode": "id"
+      } ],
+      "webhook": "chatbot-GPT-test",
+      "tag": "ask-GPT-asuransi_sinarmas_pet"
+    },
+    "name": "1ce79e55-56d6-464b-bd93-be7be7a06a5a"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Saya tidak mengerti. Bisa diulangi?", "Saya tidak dengar Anda bilang apa. Bisa ulangi lagi?", "Maaf, bisa ulangi lagi?", "Maaf, bisa diulangi?", "Bisa ulangi lagi?", "Maaf, saya tidak mengerti.", "Maaf, tadi bilang apa?", "Sekali lagi?", "Bilang apa tadi?", "Bisa diulangi?", "Saya tidak mengerti.", "Saya tidak dengar." ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "name": "d56496ac-18d4-4cf2-8bc3-e6a3fbc97e5c"
+  }, {
+    "targetPage": "consulting_policy1",
+    "event": "ask_policy1",
+    "triggerFulfillment": {
+    
+    },
+    "name": "2c533a2b-2738-4ab7-82f7-67a76a5b0822"
+  }, {
+    "event": "ask_general",
+    "triggerFulfillment": {
+    
+    },
+    "name": "679f8ea8-5a58-4e08-a3a2-628fa597c475"
+  }, {
+    "targetPage": "premium_calculation",
+    "event": "premium_calculation",
+    "triggerFulfillment": {
+    
+    },
+    "name": "3574e149-fa5c-4850-ae50-c14d164fe2d2"
+  }, {
+    "targetPage": "check_eligibility",
+    "event": "check-eligibility",
+    "triggerFulfillment": {
+    
+    },
+    "name": "47c069eb-4e65-46d7-a1b6-277d54e8ff8a"
+  }, {
+    "targetPage": "find_closest_address",
+    "event": "find-closest-address",
+    "triggerFulfillment": {
+    
+    },
+    "name": "b6d5de19-4466-4eb1-a8a1-2c736acf5b83"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

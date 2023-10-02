@@ -1,0 +1,28 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "i was born in "
+    }, {
+      "text": "2020-1-1",
+      "parameterId": "date"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "feb 6, 2010",
+      "parameterId": "date"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "im date of birth is "
+    }, {
+      "text": "1997.4.6",
+      "parameterId": "date"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

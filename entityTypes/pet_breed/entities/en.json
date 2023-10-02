@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "local dog",
+    "synonyms": [ "local dog" ],
+    "languageCode": "en"
+  }, {
+    "value": "husky",
+    "synonyms": [ "husky" ],
+    "languageCode": "en"
+  }, {
+    "value": "Siamese",
+    "synonyms": [ "Siamese" ],
+    "languageCode": "en"
+  }, {
+    "value": "local breed",
+    "synonyms": [ "local breed" ],
+    "languageCode": "en"
+  } ]
+}

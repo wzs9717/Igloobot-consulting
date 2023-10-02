@@ -1,0 +1,72 @@
+{
+  "name": "af24fbef-1075-4f88-8be7-9a8f1ea40ce5",
+  "displayName": "find_closest_address2",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "chatbot-GPT-test",
+    "tag": "find-closest-address"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Would you like to: " ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Find another pet shop or vet clinic"
+            }, {
+              "text": "Home"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Apakah Anda memiliki pertanyaan lain?" ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Bantu saya menemukan klinik dokter hewan lain atau petshop yang lain"
+            }, {
+              "text": "Kembali ke awal"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "targetPage": "find_closest_address3",
+    "name": "9b298173-4e56-42ef-9401-b794cdb13f56"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Type \"no\" if you want to go to home page." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Ketik \"no\" jika Anda ingin pergi ke halaman rumah." ]
+        },
+        "languageCode": "id"
+      } ],
+      "webhook": "chatbot-GPT-test",
+      "tag": "ask-GPT-asuransi_sinarmas_pet"
+    },
+    "name": "08c8dda1-dc54-4188-a1ec-b2e3842d58f2"
+  } ]
+}

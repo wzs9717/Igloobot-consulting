@@ -1,0 +1,49 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "tidak",
+      "parameterId": "bool",
+      "auto": true
+    }, {
+      "text": " ada pertanyaan lagi",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "menyelesaikan",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "selesai, itu saja",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "oke",
+      "parameterId": "bool",
+      "auto": true
+    }, {
+      "text": " saya pilih yang ini",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Besar",
+      "auto": true
+    }, {
+      "text": "!",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

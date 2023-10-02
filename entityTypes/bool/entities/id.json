@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "yes",
+    "synonyms": [ "bisa", "oke", "setuju", "true", "ya", "yes" ],
+    "languageCode": "id"
+  }, {
+    "value": "no",
+    "synonyms": [ "false", "tidak", "tidak bisa", "on" ],
+    "languageCode": "id"
+  } ]
+}

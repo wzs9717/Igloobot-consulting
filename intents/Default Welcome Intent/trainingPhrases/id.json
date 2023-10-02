@@ -1,0 +1,97 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "hi",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "hello",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "3aafef06-b9ea-46b2-9b49-4df8afab93e6",
+    "parts": [ {
+      "text": "halo yang di sana",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "53183567-e1da-45a8-93a9-1afe3a37733b",
+    "parts": [ {
+      "text": "halo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "096b82af-dbef-441d-8f42-1bdd67e72f77",
+    "parts": [ {
+      "text": "hai",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "053c6965-1222-489c-ae11-a658f5977329",
+    "parts": [ {
+      "text": "salam",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "daf7cc92-5be6-4ebc-98a0-e5d9ef79f70e",
+    "parts": [ {
+      "text": "halo halo",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "910defbd-8e1e-438c-ba55-3b06b06789da",
+    "parts": [ {
+      "text": "lama nggak ketemu",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "8cca598b-b408-46e5-a8c1-81a5d3aa1609",
+    "parts": [ {
+      "text": "hai hai",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "a2f39223-afac-49f1-860e-b31ad8917993",
+    "parts": [ {
+      "text": "halo apa kabar",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "c8cc5566-aba4-4db9-b85e-4d270e4dbc1d",
+    "parts": [ {
+      "text": "assalamualaikum",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "0c71a32a-3a27-499c-832f-1a28fa793a15",
+    "parts": [ {
+      "text": "hai apa kabarnya",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

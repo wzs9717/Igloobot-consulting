@@ -1,0 +1,6 @@
+{
+  "name": "dccf40e8-a7de-4bdc-a1a3-8fe33d37d740",
+  "displayName": "cancel_intent",
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

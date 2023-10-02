@@ -1,0 +1,49 @@
+{
+  "name": "f9bb93fc-2cae-435d-9d2c-b6acced9667f",
+  "displayName": "consulting_general",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "What is pet insurance?"
+          }, {
+            "text": "What is the purpose of pet insurance?"
+          }, {
+            "text": "How does pet insurance work?"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "answer.bool",
+    "condition": "$intent.params.bool.resolved = \"no\"",
+    "triggerFulfillment": {
+    
+    },
+    "name": "3fdbad30-c871-46a1-a7e9-201f2aed7f5a"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "postconsulting_general",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "webhook": "chatbot-GPT-test",
+      "tag": "genral-qa-b2c",
+      "returnPartialResponses": true
+    },
+    "name": "004ebd9e-daad-49cf-a82e-61732563fd21"
+  }, {
+    "targetPage": "Start Page",
+    "event": "restart",
+    "triggerFulfillment": {
+    
+    },
+    "name": "6ab1b07c-edbf-4e2e-947c-dc5d9b33d986"
+  } ]
+}

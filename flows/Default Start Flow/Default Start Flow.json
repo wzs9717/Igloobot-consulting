@@ -1,0 +1,80 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "igloobot di sini!" ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "targetFlow": "policy_detail_pet",
+    "name": "92496e64-c6e0-48e2-a882-076857c1f70a"
+  }, {
+    "intent": "answer.bool",
+    "condition": "$intent.params.bool.resolved = \"no\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No problems, we are always here to help. Have a nice day." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Tidak masalah, kami selalu di sini untuk membantu. Semoga harimu menyenangkan." ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "name": "7a0f7ce7-39c2-40f8-8e89-1fa6033f300f"
+  }, {
+    "condition": "$intent.params.bool.resolved = \"yes\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "policy_detail_pet",
+    "name": "c1135def-2f16-49a5-97df-82c9e52d361b"
+  } ],
+  "eventHandlers": [ {
+    "targetFlow": "policy_detail_pet",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+    
+    },
+    "name": "73fcc0ec-d2d6-4de4-abe2-17ce82ad16b6"
+  }, {
+    "targetFlow": "policy_detail_pet",
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Saya tidak mengerti. Bisa diulangi?", "Saya tidak dengar Anda bilang apa. Bisa ulangi lagi?", "Maaf, bisa ulangi lagi?", "Maaf, bisa diulangi?", "Bisa ulangi lagi?", "Maaf, saya tidak mengerti.", "Maaf, tadi bilang apa?", "Sekali lagi?", "Bilang apa tadi?", "Bisa diulangi?", "Saya tidak mengerti.", "Saya tidak dengar." ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "name": "d49b82d0-fb76-419e-9519-d47149b5665c"
+  }, {
+    "targetFlow": "policy_detail_pet",
+    "event": "user_come",
+    "triggerFulfillment": {
+    
+    },
+    "name": "58446e2c-b800-4849-9129-240617c415b9"
+  }, {
+    "targetFlow": "policy_detail_pet",
+    "event": "find-closest-address",
+    "triggerFulfillment": {
+    
+    },
+    "name": "f081ed70-128e-49f0-9abc-378ec2467436"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

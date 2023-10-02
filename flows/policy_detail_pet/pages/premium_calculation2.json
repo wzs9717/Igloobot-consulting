@@ -1,0 +1,98 @@
+{
+  "name": "8be0d43b-f4b3-4dcc-9788-1816f09d15f7",
+  "displayName": "premium_calculation2",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "chatbot-GPT-test",
+    "tag": "premium-calculation-asuransi_sinarmas_pet"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "event": {
+              "name": ""
+            },
+            "icon": {
+              "color": "#FF9800",
+              "type": "chevron_right"
+            },
+            "link": "https://b2c-id.staging.iglooinsure.com/en/pet-insurance",
+            "text": "Do you want to get protection for your pet? Click here!",
+            "type": "button"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "would you like to:" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "event": {
+                "name": "go home page"
+              },
+              "text": "go home page"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "event": {
+              "name": ""
+            },
+            "icon": {
+              "color": "#FF9800",
+              "type": "chevron_right"
+            },
+            "link": "https://b2c-id.staging.iglooinsure.com/en/pet-insurance",
+            "text": "Apakah Anda ingin mendapatkan perlindungan untuk hewan peliharaan Anda? Klik disini!",
+            "type": "button"
+          } ] ]
+        },
+        "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "Apakah Anda mau:" ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Pergi ke halaman rumah"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "targetPage": "premium_calculation3",
+    "name": "14ce5fb2-37ce-4fbf-b19f-2a7922c665a7"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Type 'no' if you want to go to home page." ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "chatbot-GPT-test",
+      "tag": "ask-GPT-asuransi_sinarmas_pet"
+    },
+    "name": "5bce8bb9-f79d-45bf-9f39-15b0c9761698"
+  } ]
+}

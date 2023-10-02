@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "1999",
+    "synonyms": [ "1999" ],
+    "languageCode": "en"
+  }, {
+    "value": "1998",
+    "synonyms": [ "1998" ],
+    "languageCode": "en"
+  }, {
+    "value": "2004",
+    "synonyms": [ "2004" ],
+    "languageCode": "en"
+  } ]
+}

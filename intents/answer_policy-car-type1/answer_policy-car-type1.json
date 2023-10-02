@@ -1,0 +1,10 @@
+{
+  "name": "6c3783b5-541e-47ab-9f6b-380ac57c2527",
+  "displayName": "answer_policy-car-type1",
+  "parameters": [ {
+    "id": "policy-car-type1",
+    "entityType": "@policy-car-type1"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

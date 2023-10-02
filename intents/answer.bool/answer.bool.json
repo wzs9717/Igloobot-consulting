@@ -1,0 +1,10 @@
+{
+  "name": "71db7bcc-81a9-4098-9635-d66ccb608b93",
+  "displayName": "answer.bool",
+  "parameters": [ {
+    "id": "bool",
+    "entityType": "@bool"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

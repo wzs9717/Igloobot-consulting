@@ -1,0 +1,18 @@
+{
+  "name": "7d828037-84ac-4d9b-904e-be6643354e8e",
+  "displayName": "postconsulting_policy1",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "consulting_policy1",
+    "name": "f1f21e4a-a51f-4e00-8385-646d756bac1c"
+  } ]
+}

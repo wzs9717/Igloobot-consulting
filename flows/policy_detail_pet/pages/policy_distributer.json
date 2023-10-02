@@ -1,0 +1,31 @@
+{
+  "name": "a1e16ed5-1770-4e6d-84ae-674b2659e588",
+  "displayName": "policy_distributer",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.pet_certificate = 2 AND $session.params.pet_type = 2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "sorry cat need certificate. Or type 'restart' for free chat and ask a question." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "maaf kucing butuh sertifikat. Atau ketik 'restart' untuk obrolan gratis dan ajukan pertanyaan." ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "name": "906af94b-a3b3-4772-aaf1-61facc538036"
+  }, {
+    "condition": "NOT ($session.params.pet_certificate = 2 AND $session.params.pet_type = 2)",
+    "triggerFulfillment": {
+    
+    },
+    "name": "4e450f01-1e1f-4343-911a-34e7964f13c5"
+  } ],
+  "transitionRouteGroups": [ "restart" ]
+}

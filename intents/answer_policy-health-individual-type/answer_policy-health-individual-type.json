@@ -1,0 +1,10 @@
+{
+  "name": "b40149f0-bc5b-4f8d-bc63-86e0c70f40e4",
+  "displayName": "answer_policy-health-individual-type",
+  "parameters": [ {
+    "id": "policy-health-individual-type1",
+    "entityType": "@policy-health-individual-type1"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}

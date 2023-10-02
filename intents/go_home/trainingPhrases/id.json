@@ -1,0 +1,16 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "ke awal",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Kembali ke awal"
+    } ],
+    "repeatCount": 3,
+    "languageCode": "id"
+  } ]
+}
