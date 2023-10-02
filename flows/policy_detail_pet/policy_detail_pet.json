@@ -4,9 +4,84 @@
   "transitionRoutes": [ {
     "condition": "true",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "Apa yang bisa saya bantu? Pilih opsi di bawah terlebih dahulu :)." ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "event": {
+              "name": "ask_policy1"
+            },
+            "subtitle": "Bagaimana cara kerja asuransi hewan peliharaan?",
+            "title": "Apa yang dicakup oleh polis?",
+            "type": "list"
+          }, {
+            "event": {
+              "name": "premium_calculation"
+            },
+            "subtitle": "Masukkan detail tentang hewan peliharaan Anda untuk mendapatkan premi.",
+            "title": "Hasilkan premi.",
+            "type": "list"
+          }, {
+            "event": {
+              "name": "check-eligibility"
+            },
+            "subtitle": "Masukkan jenis hewan peliharaan Anda untuk memeriksa kelayakan.",
+            "title": "Periksa apakah hewan peliharaan saya akan dilindungi.",
+            "type": "list"
+          }, {
+            "event": {
+              "name": "find-closest-address"
+            },
+            "subtitle": "Masukkan alamat Anda untuk menemukan klinik/dokter hewan terdekat.",
+            "title": "Temukan klinik dokter hewan/toko hewan terdekat.",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "How can I help you? Select options below first :)." ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "event": {
+              "name": "ask_policy1"
+            },
+            "subtitle": "How does pet insurance work?",
+            "title": "What does the policy cover?",
+            "type": "list"
+          }, {
+            "event": {
+              "name": "premium_calculation"
+            },
+            "subtitle": "Enter in details about your pet to get a premium.",
+            "title": "Genetate a premium.",
+            "type": "list"
+          }, {
+            "event": {
+              "name": "check-eligibility"
+            },
+            "subtitle": "Enter in your pet breed to check eligibility.",
+            "title": "Check if my pet will be covered.",
+            "type": "list"
+          }, {
+            "event": {
+              "name": "find-closest-address"
+            },
+            "subtitle": "Enter your address to find closest clinic/vet.",
+            "title": "Find closest vet clinic/pet shop.",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
     },
-    "targetPage": "find_closest_address",
     "name": "a2926fd2-84e7-4514-8c3e-5ecffe5a07df"
   } ],
   "eventHandlers": [ {
@@ -19,7 +94,7 @@
         },
         "languageCode": "id"
       } ],
-      "webhook": "chatbot-GPT-test",
+      "webhook": "LLM platform",
       "tag": "ask-GPT-asuransi_sinarmas_pet"
     },
     "name": "1ce79e55-56d6-464b-bd93-be7be7a06a5a"

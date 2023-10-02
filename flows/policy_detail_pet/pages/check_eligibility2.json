@@ -5,7 +5,7 @@
   
   },
   "entryFulfillment": {
-    "webhook": "chatbot-GPT-test",
+    "webhook": "LLM platform",
     "tag": "check-eligibility"
   },
   "transitionRoutes": [ {
@@ -59,7 +59,7 @@
         },
         "languageCode": "id"
       } ],
-      "webhook": "chatbot-GPT-test",
+      "webhook": "LLM platform",
       "tag": "ask-GPT-asuransi_sinarmas_pet"
     },
     "name": "4eed8350-6c20-4d74-9e84-7a4405fdf1f3"

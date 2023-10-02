@@ -51,38 +51,13 @@
         },
         "languageCode": "id"
       }, {
-        "payload": {
-          "richContent": [ [ {
-            "icon": {
-              "color": "#5858ff",
-              "type": "home"
-            },
-            "link": "https://b2c-id.staging.iglooinsure.com/id/asuransi-hewan",
-            "text": "Kembali ke Igloo",
-            "type": "button"
-          } ] ]
-        },
-        "languageCode": "id"
-      }, {
         "text": {
           "text": [ "Thanks for your feedback!" ]
         },
         "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "icon": {
-              "color": "#5858ff",
-              "type": "home"
-            },
-            "link": "https://b2c-id.staging.iglooinsure.com/en/pet-insurance",
-            "text": "Back to Igloo",
-            "type": "button"
-          } ] ]
-        },
-        "languageCode": "en"
       } ]
     },
+    "targetPage": "Start Page",
     "name": "657fb4b3-fb42-48cf-970a-19a306a3c3f2"
   }, {
     "intent": "answer.bool",
@@ -94,58 +69,46 @@
         },
         "languageCode": "id"
       }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Kembali ke awal"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "id"
+      }, {
         "text": {
-          "text": [ "We are always looking to improve, and would appreciate if you can let us know what you didnt like about the chat bot. Please leave a comment below and our team will take a look." ]
+          "text": [ "Sorry for that, may I know the reason?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Or you can: " ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Go home page"
+            } ],
+            "type": "chips"
+          } ] ]
         },
         "languageCode": "en"
       } ]
     },
     "name": "c036f1e6-2d05-4661-9172-89ca28688eb3"
-  }, {
-    "intent": "Default Welcome Intent",
-    "triggerFulfillment": {
-    
-    },
-    "targetPage": "Start Page",
-    "name": "d8abdc47-7aae-47ca-a89b-b2ce79184788"
   } ],
   "eventHandlers": [ {
+    "targetPage": "Start Page",
     "event": "sys.no-match-default",
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "terima kasih atas tanggapan Anda!" ]
-        },
-        "languageCode": "id"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "icon": {
-              "color": "#5858ff",
-              "type": "home"
-            },
-            "link": "https://b2c-id.staging.iglooinsure.com/id/asuransi-hewan",
-            "text": "Kembali ke Igloo",
-            "type": "button"
-          } ] ]
-        },
-        "languageCode": "id"
-      }, {
-        "text": {
           "text": [ "Thanks for your feedback!" ]
-        },
-        "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "icon": {
-              "color": "#5858ff",
-              "type": "home"
-            },
-            "link": "https://b2c-id.staging.iglooinsure.com/en/pet-insurance",
-            "text": "Back to Igloo",
-            "type": "button"
-          } ] ]
         },
         "languageCode": "en"
       } ]

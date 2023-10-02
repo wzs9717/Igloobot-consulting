@@ -95,7 +95,7 @@
     "targetPage": "postconsulting_policy1",
     "event": "sys.no-match-default",
     "triggerFulfillment": {
-      "webhook": "chatbot-GPT-test",
+      "webhook": "LLM platform",
       "tag": "ask-GPT-asuransi_sinarmas_pet"
     },
     "name": "97a10bfa-7839-41d9-9436-e3821a027927"

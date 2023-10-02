@@ -33,7 +33,7 @@
     "targetPage": "postconsulting_general",
     "event": "sys.no-match-default",
     "triggerFulfillment": {
-      "webhook": "chatbot-GPT-test",
+      "webhook": "LLM platform",
       "tag": "genral-qa-b2c",
       "returnPartialResponses": true
     },

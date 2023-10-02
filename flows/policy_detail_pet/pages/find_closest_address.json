@@ -10,23 +10,6 @@
         "initialPromptFulfillment": {
           "messages": [ {
             "text": {
-              "text": [ "Apakah saat ini kamu sedang mencari klinik dokter hewan atau petshop terdekat?" ]
-            },
-            "languageCode": "id"
-          }, {
-            "payload": {
-              "richContent": [ [ {
-                "options": [ {
-                  "text": "Klinik dokter hewan"
-                }, {
-                  "text": "Petshop"
-                } ],
-                "type": "chips"
-              } ] ]
-            },
-            "languageCode": "id"
-          }, {
-            "text": {
               "text": [ "Are you looking for the nearest vet clinic or pet shop?" ]
             },
             "languageCode": "en"
@@ -42,6 +25,23 @@
               } ] ]
             },
             "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Apakah saat ini kamu sedang mencari klinik dokter hewan atau petshop terdekat?" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Klinik dokter hewan"
+                }, {
+                  "text": "Petshop"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "id"
           } ]
         }
       }
@@ -53,14 +53,14 @@
         "initialPromptFulfillment": {
           "messages": [ {
             "text": {
-              "text": [ "Di mana alamat kamu saat ini? (Contoh: Kemang)" ]
-            },
-            "languageCode": "id"
-          }, {
-            "text": {
-              "text": [ "What is your current address" ]
+              "text": [ "Where is your current address?" ]
             },
             "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Di mana alamat kamu saat ini?" ]
+            },
+            "languageCode": "id"
           } ]
         }
       }

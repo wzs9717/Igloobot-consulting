@@ -83,7 +83,7 @@
   "eventHandlers": [ {
     "event": "sys.no-match-default",
     "triggerFulfillment": {
-      "webhook": "chatbot-GPT-test",
+      "webhook": "LLM platform",
       "tag": "ask-GPT-asuransi_sinarmas_pet"
     },
     "name": "4255679d-da44-4bc1-a847-7bfb37c17c1d"

@@ -77,7 +77,7 @@
   "eventHandlers": [ {
     "event": "sys.no-match-default",
     "triggerFulfillment": {
-      "webhook": "chatbot-GPT-test",
+      "webhook": "LLM platform",
       "tag": "free chat"
     },
     "name": "21572f3f-60a3-47e0-9728-1f3d4ce81525"

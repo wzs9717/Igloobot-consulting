@@ -1,13 +1,6 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "hi",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "id"
-  }, {
-    "parts": [ {
       "text": "hello",
       "auto": true
     } ],

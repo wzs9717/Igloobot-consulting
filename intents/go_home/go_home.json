@@ -1,7 +1,11 @@
 {
   "name": "4bc0b9ee-6754-41fb-abdf-56b117c9fd29",
   "displayName": "go_home",
+  "parameters": [ {
+    "id": "last-name",
+    "entityType": "@sys.last-name"
+  } ],
   "priority": 500000,
   "description": "go home page",
-  "numTrainingPhrases": 6
+  "numTrainingPhrases": 7
 }

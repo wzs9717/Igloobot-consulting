@@ -5,13 +5,44 @@
   
   },
   "entryFulfillment": {
-    "webhook": "chatbot-GPT-test",
+    "webhook": "LLM platform",
     "tag": "premium-calculation-asuransi_sinarmas_pet"
   },
   "transitionRoutes": [ {
     "condition": "true",
     "triggerFulfillment": {
       "messages": [ {
+        "payload": {
+          "richContent": [ [ {
+            "event": {
+              "name": ""
+            },
+            "icon": {
+              "color": "#FF9800",
+              "type": "chevron_right"
+            },
+            "link": "https://b2c-id.staging.iglooinsure.com/en/pet-insurance",
+            "text": "Apakah Anda ingin mendapatkan perlindungan untuk hewan peliharaan Anda? Klik disini!",
+            "type": "button"
+          } ] ]
+        },
+        "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "Apakah Anda mau:" ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Pergi ke halaman rumah"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "id"
+      }, {
         "payload": {
           "richContent": [ [ {
             "event": {
@@ -45,37 +76,6 @@
           } ] ]
         },
         "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "event": {
-              "name": ""
-            },
-            "icon": {
-              "color": "#FF9800",
-              "type": "chevron_right"
-            },
-            "link": "https://b2c-id.staging.iglooinsure.com/en/pet-insurance",
-            "text": "Apakah Anda ingin mendapatkan perlindungan untuk hewan peliharaan Anda? Klik disini!",
-            "type": "button"
-          } ] ]
-        },
-        "languageCode": "id"
-      }, {
-        "text": {
-          "text": [ "Apakah Anda mau:" ]
-        },
-        "languageCode": "id"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "options": [ {
-              "text": "Pergi ke halaman rumah"
-            } ],
-            "type": "chips"
-          } ] ]
-        },
-        "languageCode": "id"
       } ]
     },
     "targetPage": "premium_calculation3",
@@ -90,7 +90,7 @@
         },
         "languageCode": "en"
       } ],
-      "webhook": "chatbot-GPT-test",
+      "webhook": "LLM platform",
       "tag": "ask-GPT-asuransi_sinarmas_pet"
     },
     "name": "5bce8bb9-f79d-45bf-9f39-15b0c9761698"

@@ -1,6 +1,17 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "Gergi",
+      "parameterId": "last-name",
+      "auto": true
+    }, {
+      "text": " ke halaman rumah",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
       "text": "ke awal",
       "auto": true
     } ],
