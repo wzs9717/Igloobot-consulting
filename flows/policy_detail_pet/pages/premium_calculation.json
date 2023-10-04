@@ -14,7 +14,7 @@
     }, {
       "displayName": "age",
       "required": true,
-      "entityType": "@sys.number-integer",
+      "entityType": "@sys.number",
       "fillBehavior": {
         "initialPromptFulfillment": {
           "messages": [ {
@@ -33,7 +33,7 @@
     }, {
       "displayName": "weight",
       "required": true,
-      "entityType": "@sys.number-integer",
+      "entityType": "@sys.number",
       "fillBehavior": {
         "initialPromptFulfillment": {
           "messages": [ {

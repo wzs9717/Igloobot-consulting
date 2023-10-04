@@ -9,63 +9,38 @@
       "payload": {
         "richContent": [ [ {
           "options": [ {
-            "text": "Jenis hewan apa yang bisa diasuransikan?"
+            "text": "Q) What types of animals can be insured?"
           }, {
-            "text": "Berapa harga premiumnya?"
+            "text": "Q) How much is the Pet insurance premium?"
           }, {
-            "text": "Bisakah kucing tanpa sertifikat diasuransikan?"
-          }, {
-            "text": "Apa itu asuransi hewan peliharaan?"
-          }, {
-            "text": "Bagaimana cara mengklaim jika anjing saya sakit?"
-          }, {
-            "text": "Bagaimana cara membeli asuransi hewan peliharaan?"
-          } ],
-          "type": "chips"
-        } ] ]
-      },
-      "languageCode": "id"
-    }, {
-      "payload": {
-        "richContent": [ [ {
-          "options": [ {
-            "text": "What type of animals can be insured?"
-          }, {
-            "text": "What is the premium price?"
-          }, {
-            "text": "Can a cat without a certificate be insured?"
-          }, {
-            "text": "What is pet insurance?"
-          }, {
-            "text": "How to claim if my dog is sick?"
-          }, {
-            "text": "How can I purchase pet insurance?"
+            "text": "Q) How can I put in a claim for my sick dog?"
           } ],
           "type": "chips"
         } ] ]
       },
       "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Berapa harga premiumnya?"
+          }, {
+            "text": "Bagaimana cara mengklaim jika anjing saya sakit?"
+          }, {
+            "text": "Bagaimana cara membeli asuransi hewan peliharaan?"
+          }, {
+            "text": "Untuk apa aku dilindungi?"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "id"
     } ]
   },
   "transitionRoutes": [ {
     "intent": "end_conversation",
     "triggerFulfillment": {
       "messages": [ {
-        "text": {
-          "text": [ "Bisakah saya membantu Anda dengan hal lain?" ]
-        },
-        "languageCode": "id"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "options": [ {
-              "text": "Gergi ke halaman rumah"
-            } ],
-            "type": "chips"
-          } ] ]
-        },
-        "languageCode": "id"
-      }, {
         "text": {
           "text": [ "Can i help you with anything else? " ]
         },
@@ -80,6 +55,21 @@
           } ] ]
         },
         "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Bisakah saya membantu Anda dengan hal lain?" ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Gergi ke halaman rumah"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "id"
       } ]
     },
     "name": "07955d5b-b6fe-45c7-8ef0-8b915c6e64ca"

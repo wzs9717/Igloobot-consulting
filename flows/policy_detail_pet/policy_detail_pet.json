@@ -6,44 +6,6 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Apa yang bisa saya bantu? Pilih opsi di bawah terlebih dahulu :)." ]
-        },
-        "languageCode": "id"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "event": {
-              "name": "ask_policy1"
-            },
-            "subtitle": "Bagaimana cara kerja asuransi hewan peliharaan?",
-            "title": "Apa yang dicakup oleh polis?",
-            "type": "list"
-          }, {
-            "event": {
-              "name": "premium_calculation"
-            },
-            "subtitle": "Masukkan detail tentang hewan peliharaan Anda untuk mendapatkan premi.",
-            "title": "Hasilkan premi.",
-            "type": "list"
-          }, {
-            "event": {
-              "name": "check-eligibility"
-            },
-            "subtitle": "Masukkan jenis hewan peliharaan Anda untuk memeriksa kelayakan.",
-            "title": "Periksa apakah hewan peliharaan saya akan dilindungi.",
-            "type": "list"
-          }, {
-            "event": {
-              "name": "find-closest-address"
-            },
-            "subtitle": "Masukkan alamat Anda untuk menemukan klinik/dokter hewan terdekat.",
-            "title": "Temukan klinik dokter hewan/toko hewan terdekat.",
-            "type": "list"
-          } ] ]
-        },
-        "languageCode": "id"
-      }, {
-        "text": {
           "text": [ "How can I help you? Select options below first :)." ]
         },
         "languageCode": "en"
@@ -53,7 +15,7 @@
             "event": {
               "name": "ask_policy1"
             },
-            "subtitle": "How does pet insurance work?",
+            "subtitle": "Ask me anything you want to know about the policy and ill do my best to answer it. Remember im in beta testing.",
             "title": "What does the policy cover?",
             "type": "list"
           }, {
@@ -80,6 +42,44 @@
           } ] ]
         },
         "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Halo saya Igloobot, virtual assistant kamu. Silahkan pilih topik yang ingin kamu tanyakan:" ]
+        },
+        "languageCode": "id"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "event": {
+              "name": "ask_policy1"
+            },
+            "subtitle": "Bagaimana cara kerja asuransi hewan peliharaan?",
+            "title": "Apa saja yang dicakup oleh polis asuransi hewan peliharaan?",
+            "type": "list"
+          }, {
+            "event": {
+              "name": "premium_calculation"
+            },
+            "subtitle": "Masukkan detail tentang hewan peliharaan Anda untuk mendapatkan premi.",
+            "title": "Lihat harga premi asuransi hewan peliharaan",
+            "type": "list"
+          }, {
+            "event": {
+              "name": "check-eligibility"
+            },
+            "subtitle": "Masukkan jenis hewan peliharaan Anda untuk memeriksa kelayakan.",
+            "title": "Periksa apakah hewan peliharaan saya akan dilindungi.",
+            "type": "list"
+          }, {
+            "event": {
+              "name": "find-closest-address"
+            },
+            "subtitle": "Masukkan alamat Anda untuk menemukan klinik/dokter hewan terdekat.",
+            "title": "Temukan klinik dokter hewan/toko hewan terdekat.",
+            "type": "list"
+          } ] ]
+        },
+        "languageCode": "id"
       } ]
     },
     "name": "a2926fd2-84e7-4514-8c3e-5ecffe5a07df"
@@ -113,7 +113,22 @@
     "targetPage": "consulting_policy1",
     "event": "ask_policy1",
     "triggerFulfillment": {
-    
+      "messages": [ {
+        "text": {
+          "text": [ "Welcome to Igloobot. \nPlease ask me any question you have on the pet insurance policy and ill do my best to answer the question. " ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "The more specific you are, the better the answer." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Here are some of the more common questions asked by our customers." ]
+        },
+        "languageCode": "en"
+      } ]
     },
     "name": "2c533a2b-2738-4ab7-82f7-67a76a5b0822"
   }, {
