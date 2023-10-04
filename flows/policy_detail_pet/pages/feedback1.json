@@ -7,23 +7,6 @@
   "entryFulfillment": {
     "messages": [ {
       "text": {
-        "text": [ "Apakah informasi yang kami sampaikan membantu kamu?" ]
-      },
-      "languageCode": "id"
-    }, {
-      "payload": {
-        "richContent": [ [ {
-          "options": [ {
-            "text": "Ya"
-          }, {
-            "text": "Tidak"
-          } ],
-          "type": "chips"
-        } ] ]
-      },
-      "languageCode": "id"
-    }, {
-      "text": {
         "text": [ "Did you find the answer helpful?" ]
       },
       "languageCode": "en"
@@ -39,6 +22,23 @@
         } ] ]
       },
       "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Apakah informasi yang kami sampaikan membantu kamu?" ]
+      },
+      "languageCode": "id"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Ya"
+          }, {
+            "text": "Tidak"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "id"
     } ]
   },
   "transitionRoutes": [ {
@@ -46,6 +46,11 @@
     "condition": "$intent.params.bool.resolved = yes",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "Thanks for your feedback!" ]
+        },
+        "languageCode": "en"
+      }, {
         "text": {
           "text": [ "Terima kasih telah menghubungi kami!" ]
         },
@@ -63,26 +68,9 @@
           } ] ]
         },
         "languageCode": "id"
-      }, {
-        "text": {
-          "text": [ "Thanks for your feedback!" ]
-        },
-        "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "icon": {
-              "color": "#5858ff",
-              "type": "home"
-            },
-            "link": "https://b2c-id.staging.iglooinsure.com/en/pet-insurance",
-            "text": "Back to Igloo",
-            "type": "button"
-          } ] ]
-        },
-        "languageCode": "en"
       } ]
     },
+    "targetPage": "Start Page",
     "name": "657fb4b3-fb42-48cf-970a-19a306a3c3f2"
   }, {
     "intent": "answer.bool",
@@ -90,14 +78,14 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Masukkan kritik dan saran untuk meningkatkan layanan kami!" ]
-        },
-        "languageCode": "id"
-      }, {
-        "text": {
           "text": [ "We are always looking to improve, and would appreciate if you can let us know what you didnt like about the chat bot. Please leave a comment below and our team will take a look." ]
         },
         "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Masukkan kritik dan saran untuk meningkatkan layanan kami!" ]
+        },
+        "languageCode": "id"
       } ]
     },
     "name": "c036f1e6-2d05-4661-9172-89ca28688eb3"
@@ -108,11 +96,33 @@
     },
     "targetPage": "Start Page",
     "name": "d8abdc47-7aae-47ca-a89b-b2ce79184788"
+  }, {
+    "intent": "go_home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "c37d9748-374d-4274-9721-2c70a640aff0"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
     "triggerFulfillment": {
       "messages": [ {
+        "text": {
+          "text": [ "Thanks for your feedback!" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Go home page"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      }, {
         "text": {
           "text": [ "terima kasih atas tanggapan Anda!" ]
         },
@@ -130,24 +140,6 @@
           } ] ]
         },
         "languageCode": "id"
-      }, {
-        "text": {
-          "text": [ "Thanks for your feedback!" ]
-        },
-        "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "icon": {
-              "color": "#5858ff",
-              "type": "home"
-            },
-            "link": "https://b2c-id.staging.iglooinsure.com/en/pet-insurance",
-            "text": "Back to Igloo",
-            "type": "button"
-          } ] ]
-        },
-        "languageCode": "en"
       } ]
     },
     "name": "96678e05-9029-4564-8383-934eb99d9273"
