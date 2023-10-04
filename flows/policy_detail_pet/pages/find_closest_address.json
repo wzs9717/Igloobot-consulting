@@ -10,23 +10,6 @@
         "initialPromptFulfillment": {
           "messages": [ {
             "text": {
-              "text": [ "Are you looking for the nearest vet clinic or pet shop?" ]
-            },
-            "languageCode": "en"
-          }, {
-            "payload": {
-              "richContent": [ [ {
-                "options": [ {
-                  "text": "Vet clinic"
-                }, {
-                  "text": "Pet shop"
-                } ],
-                "type": "chips"
-              } ] ]
-            },
-            "languageCode": "en"
-          }, {
-            "text": {
               "text": [ "Apakah saat ini kamu sedang mencari klinik dokter hewan atau petshop terdekat?" ]
             },
             "languageCode": "id"
@@ -42,6 +25,23 @@
               } ] ]
             },
             "languageCode": "id"
+          }, {
+            "text": {
+              "text": [ "Are you looking for the nearest vet clinic or pet shop?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "options": [ {
+                  "text": "Vet clinic"
+                }, {
+                  "text": "Pet shop"
+                } ],
+                "type": "chips"
+              } ] ]
+            },
+            "languageCode": "en"
           } ]
         }
       }
@@ -53,14 +53,14 @@
         "initialPromptFulfillment": {
           "messages": [ {
             "text": {
-              "text": [ "Where is your current address?" ]
-            },
-            "languageCode": "en"
-          }, {
-            "text": {
-              "text": [ "Di mana alamat kamu saat ini?" ]
+              "text": [ "Di mana alamat kamu saat ini? (Contoh: Kemang)" ]
             },
             "languageCode": "id"
+          }, {
+            "text": {
+              "text": [ "What is your current address" ]
+            },
+            "languageCode": "en"
           } ]
         }
       }
