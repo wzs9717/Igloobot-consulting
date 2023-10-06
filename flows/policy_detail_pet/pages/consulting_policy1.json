@@ -9,53 +9,48 @@
       "payload": {
         "richContent": [ [ {
           "options": [ {
-            "text": "Q) What types of animals can be insured?"
+            "text": "Jenis hewan apa yang bisa diasuransikan?"
           }, {
-            "text": "Q) How much is the Pet insurance premium?"
-          }, {
-            "text": "Q) How can I put in a claim for my sick dog?"
-          } ],
-          "type": "chips"
-        } ] ]
-      },
-      "languageCode": "en"
-    }, {
-      "payload": {
-        "richContent": [ [ {
-          "options": [ {
             "text": "Berapa harga premiumnya?"
+          }, {
+            "text": "Bisakah kucing tanpa sertifikat diasuransikan?"
+          }, {
+            "text": "Apa itu asuransi hewan peliharaan?"
           }, {
             "text": "Bagaimana cara mengklaim jika anjing saya sakit?"
           }, {
             "text": "Bagaimana cara membeli asuransi hewan peliharaan?"
-          }, {
-            "text": "Untuk apa aku dilindungi?"
           } ],
           "type": "chips"
         } ] ]
       },
       "languageCode": "id"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "What types of animals can be insured?"
+          }, {
+            "text": "How much is the Pet insurance premium?"
+          }, {
+            "text": "Can a cat without a certificate be insured?"
+          }, {
+            "text": "What is pet insurance?"
+          }, {
+            "text": "How can I put in a claim for my sick dog? "
+          }, {
+            "text": "How can I purchase pet insurance?"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
     } ]
   },
   "transitionRoutes": [ {
     "intent": "end_conversation",
     "triggerFulfillment": {
       "messages": [ {
-        "text": {
-          "text": [ "Can i help you with anything else? " ]
-        },
-        "languageCode": "en"
-      }, {
-        "payload": {
-          "richContent": [ [ {
-            "options": [ {
-              "text": "Go home page"
-            } ],
-            "type": "chips"
-          } ] ]
-        },
-        "languageCode": "en"
-      }, {
         "text": {
           "text": [ "Bisakah saya membantu Anda dengan hal lain?" ]
         },
@@ -70,6 +65,21 @@
           } ] ]
         },
         "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "Can i help you with anything else? " ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Go home page"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
       } ]
     },
     "name": "07955d5b-b6fe-45c7-8ef0-8b915c6e64ca"
